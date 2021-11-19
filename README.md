@@ -29,7 +29,9 @@ The dataset was iterated through a number of model and vectorizer combinations,t
 ![table of model results](/images/model_results.png)
 
 ## Final Model
-After tuning the final model the best parameters are C=0.5, max_iter=700, solver='saga'. We evaluated the model by passing through a validation set of data to prove the model performs as well on unseen data as it did during the modeling process. The final model achieved a final accuracy score of 74% and recall score of 87% . 
+After tuning the final model the best parameters are C=0.5, max_iter=700, solver='saga'. We evaluated the model by passing through a validation set of data to prove the model performs as well on unseen data as it did during the modeling process. The final model achieved a final accuracy score of 74% and recall score of 87%.
+
+![confusion matrix of final model](/images/filled matrix.png)
 
 ## Conclusion
 We were able to develop a logistic regression model and perform hyperparameter tuning to achieve a final accuracy score of 74% and recall score of 88%. This model uses a supervised learning approach by training on labeled Tweet data, which then assigned sentiment to unseen data more accurately than the unsupervised modeling techniques we explored.  Businesses launching new products can use this model to understand customer sentiment, which is a primary driver in purchasing decision-making. They can use insights gathered from our model to strategically plan for future campaigns.
