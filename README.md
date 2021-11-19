@@ -19,6 +19,7 @@ Based on our stakholder's ultimate needs to understand positive senitment of twe
 
 ## Text Processing
 The nature of the text was tweets. These tweets conain mentions (@userhandle), links, hashtags, and the message itself. Tweets call for a variation in syntax based on character limitations.
+
 ![before word cloud of text processing](/images/wordcloud_before.png)
 ![after word clouds of text processing](/images/wordcloud_after.png)
 
