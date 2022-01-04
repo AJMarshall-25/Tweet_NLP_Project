@@ -1,4 +1,4 @@
-# Tweet_NLP_Project
+# Tweet Sentiment for Market Development
 ![logo](/images/logo.png)
 
 ## Business Understanding
